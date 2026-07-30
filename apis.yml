@@ -1,8 +1,25 @@
 aid: materialbank
 name: Materialbank
-description: 'Materialbank is a company surfaced as a portfolio company of bond-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: ecommerce. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Material Bank is an e-commerce marketplace that lets architecture and
+  design professionals search and order free material samples from thousands of design
+  and architectural product brands, delivered overnight in a single box. Founded by
+  Adam Sandow, the platform consolidates supplier sample catalogs into one searchable
+  storefront (built on Adobe Commerce) with free next-day sample fulfillment. Material
+  Bank does not publish a public developer API program: the consumer storefront runs
+  a standard Adobe Commerce GraphQL endpoint at /graphql (introspection disabled)
+  and an api.materialbank.com host that is not publicly documented.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://materialbank-cdn.global.ssl.fastly.net/media/wysiwyg/linkedIn_1200_627.jpg
 url: https://raw.githubusercontent.com/api-evangelist/materialbank/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ecommerce
+- Marketplace
+- Architecture
+- Design
+- Building Materials
+- Samples
+- Adobe Commerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,20 @@ maintainers:
 common:
 - type: Website
   url: https://materialbank.com
+- type: SignUp
+  url: https://www.materialbank.com/customer/account/create
+- type: Login
+  url: https://www.materialbank.com/customer/account/login
+- type: PrivacyPolicy
+  url: https://www.materialbank.com/privacy-policy
+- type: TermsOfService
+  url: https://www.materialbank.com/terms-of-use
+- type: Support
+  url: https://www.materialbank.com/contact
+- type: DomainSecurity
+  url: security/materialbank-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
